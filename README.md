@@ -31,7 +31,7 @@ You will only `build` the `main/dissertation.tex` file. It includes everything y
 Notice all files are placed with relative paths (ex: `../chapter1/introduction` from `main/dissertation.tex` for `chapter1/introduction`). So follow the folder structure or modify the paths to match your own.
 
 
-### Add-On's to make your life easier AND to accomodate dumb formatting requirements that nobody wants to read:
+### Add-On's to make your life easier AND to accomodate formatting requirements that nobody wants to read:
  - `\usepackage{subfiles}` to separate chapters into digestable files.
  - `\usepackage{indentfirst}` indents first paragraph after `\section` tags
  - `\usepackage[all]{nowidow}` to eliminate widow/orphan sentences.
