@@ -12,6 +12,7 @@ WCM Thesis Template
 ### Attributions
  - Adapted from https://github.com/axiezai/dissertation, feel free to take a look as an example of a complete thesis. 
  - Modified from Cornell University's [templates](https://gradschool.cornell.edu/academic-progress/thesis-dissertation/templates/) resources. 
+ - Used LaTeX template examples from <em>overleaf</em>.
 
 ### How to compile:
 For beginners that's never touched LaTeX before, you will need:
@@ -22,6 +23,7 @@ For beginners that's never touched LaTeX before, you will need:
     - I personally used [`texmaker`](https://www.xm1math.net/texmaker/), remember to go to Preferences and edit <em>Quick Build</em> to `pdflatex + bib(la)tex + pdflatex + View PDF` for a smooth experience. Change the font size and other preferences while you are at it for your comfort.
     - For coders, use [`VSCode`](https://code.visualstudio.com/) with the [`LaTeX Workshop`](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension, it's quite lightweight and you can add a bunch of other text editing extensions for quite a good experience.
     - Here's quite a large list of other options: https://tex.stackexchange.com/questions/339/latex-editors-ides
+    - Don't want to download anything and try out LaTeX? Head to <em>[overleaf](https://www.overleaf.com/)</em> and use their online editor with any journal's template. I don't recommend creating your entire thesis online, it will take a long time to compile and you will have to upload a lot of stuff.
 
 
 You will only `build` the `main/dissertation.tex` file. It includes everything you will need. For experienced `git` users, feel free to `clone` this repository and start your own project by copying over `main/{dissertation.tex,hangcaption.sty,cornell.cls}` to your repo. Then create a blank `References.bib` and copy over from a citation manager your desired references in `bibtex` format.
@@ -44,3 +46,5 @@ Notice all files are placed with relative paths (ex: `../chapter1/introduction` 
 These changes are already implemented in `main/dissertation.tex`, do not edit the preamble unless you know what you are doing, and you are certain your edits will still follow formatting guidelines.
 
 For LaTeX newcomers that's never created documents in plain text before, google `overleaf how to x` for simple guidelines on how to do certain things if following my `.tex` files are not instructive.
+
+If you have questions that you couldn't solve from googling around, create an issue in this GitHub repository and I will try to help if I have time. 
