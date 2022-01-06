@@ -1,5 +1,13 @@
 WCM Thesis Template
 ---
+### Why you should use LaTeX templates instead of Word:
+ - All formatting already done for you.
+ - Automatically generated table of contents, list of figures/tables, and bibliography.
+ - Clearly defined sections for your thesis.
+ - Referencing and hyperlinking your figures, chapters, sections, equations in your pdf.
+ - Automatic placement of figures without manually dragging and resizing.
+ - Easy entry of math symbols and equations.
+ - Large Word files are heavy and prone to crashing, LaTeX files are lightweight and all contents are kept separately until compilation, so no crashing or fears of losing your work progress.
 
 ### Attributions
  - Adapted from https://github.com/axiezai/dissertation, feel free to take a look as an example of a complete thesis. 
