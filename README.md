@@ -3,6 +3,7 @@ WCM Thesis Template
 The LaTeX template is placed in `main/dissertation.tex` and you can view the compiled PDF file in `main/dissertation.pdf`.
 
 ### Why you should use LaTeX templates instead of Word:
+ - [Have a read](https://axiezai.github.io/thoughts/2022/01/06/why-latex.html)
  - All formatting already done for you.
  - Automatically generated table of contents, list of figures/tables, and bibliography.
  - Clearly defined sections for your thesis.
